@@ -8,6 +8,7 @@ module.exports = function (ctx) {
     // https://quasar.dev/quasar-cli/cli-documentation/boot-files
     boot: [
       'axios'
+      // 'qMarkdown'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -77,6 +78,14 @@ module.exports = function (ctx) {
           exclude: /node_modules/,
           options: {
             formatter: require('eslint').CLIEngine.getFormatter('stylish')
+          }
+        })
+        cfg.module.rules.push({
+          test: /\.md$/,
+          loader: 'frontmatter-markdown-loader',
+          exclude: /node_modules/,
+          options: {
+            mode: ['body'] // Raw Markdown to use in QMarkdown
           }
         })
       }
