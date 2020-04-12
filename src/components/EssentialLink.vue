@@ -1,22 +1,17 @@
 <template>
   <q-item
     clickable
+    :to="link"
     tag="a"
-    target="_blank"
-    :href="link"
   >
     <q-item-section
-      v-if="icon"
+      top
       avatar
     >
-      <q-icon :name="icon" />
+      <q-avatar :icon="icon" />
     </q-item-section>
-
     <q-item-section>
-      <q-item-label>{{ title }}</q-item-label>
-      <q-item-label caption>
-        {{ caption }}
-      </q-item-label>
+      <q-item-label>{{title}}</q-item-label>
     </q-item-section>
   </q-item>
 </template>
@@ -29,12 +24,6 @@ export default {
       type: String,
       required: true
     },
-
-    caption: {
-      type: String,
-      default: ''
-    },
-
     link: {
       type: String,
       default: '#'

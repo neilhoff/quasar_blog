@@ -1,8 +1,6 @@
 <template>
-
   <div>
-    <h3>{{postAttributes.title}}</h3>
-    {{postBody}}
+    <div v-html="postBody"></div>
   </div>
 </template>
 

@@ -20,7 +20,7 @@ module.exports = function (ctx) {
     extras: [
       // 'ionicons-v4',
       // 'mdi-v4',
-      // 'fontawesome-v5',
+      'fontawesome-v5',
       // 'eva-icons',
       // 'themify',
       // 'line-awesome',
@@ -83,10 +83,10 @@ module.exports = function (ctx) {
         cfg.module.rules.push({
           test: /\.md$/,
           loader: 'frontmatter-markdown-loader',
-          exclude: /node_modules/,
-          options: {
-            mode: ['body'] // Raw Markdown to use in QMarkdown
-          }
+          exclude: /node_modules/
+          // options: {
+          //   mode: ['HTML'] // Set to 'body' to use Raw Markdown to use in QMarkdown
+          // }
         })
       }
     },

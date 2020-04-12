@@ -1,28 +1,15 @@
 <template>
-  <q-page class="flex flex-center">
-    <q-list bordered>
-      <q-item
-        v-for="post in posts"
-        :key="post.fileName"
-        @click="getPost(post.fileName)"
-        clickable
-        v-ripple
-      >
-        <q-item-section avatar>
-          <q-icon
-            color="primary"
-            name="bluetooth"
-          />
-        </q-item-section>
-        <q-item-section>{{post.fileName}}</q-item-section>
-      </q-item>
-    </q-list>
+  <q-page>
 
-    <div v-if="postVisable">
-      <show-post
-        :postBody="post.body"
-        :post-attributes="post.attributes"
+    <div class="absolute-center">
+      <profile-card
+        :author="author"
+        :social="social"
+        :size="4"
+        :backgroundColor="'white'"
+        :font-color="'black'"
       />
+
     </div>
 
   </q-page>
@@ -30,12 +17,13 @@
 
 <script>
 import { postList } from 'src/posts/postList'
-import ShowPost from 'components/Posts/ShowPost'
+import ProfileCard from 'components/ProfileCard'
+import { authorConfig } from 'src/config/authorConfig'
 
 export default {
   name: 'PageIndex',
   components: {
-    ShowPost
+    ProfileCard
   },
   data () {
     return {
@@ -43,33 +31,46 @@ export default {
       markdown: null,
       posts: postList.posts,
       postVisable: false,
-      post: {}
+      postListVisable: true,
+      post: {},
+      author: authorConfig.author,
+      social: authorConfig.socialProfiles
     }
   },
   methods: {
     getPost (fileName) {
-      // this.$set(this.fileName,)
       this.postVisable = true
+      this.postListVisable = false
       this.post = require(`src/posts/${fileName}`)
-      console.log(fileName)
-      console.log(this.post)
+    },
+    backToPosts () {
+      this.postVisable = false
+      this.postListVisable = true
     }
   },
   computed: {
-    // attributes () {
-    //   return this.fm.attributes
-    // },
-    // body () {
-    //   return this.fm.body
-    // }
-  },
-  async created () {
-    // There is an error when loading the module if you don't copy it into a constant. Not sure why....
-    // const p = postList
-    // p.posts.forEach(post => {
-    //   console.log(post.fileName)
-    //   this.posts.push(require(`src/posts/${post.fileName}`))
-    // })
+    postImage (image) {
+      console.log(image)
+      return require(`src/posts/${image}`)
+    }
   }
 }
 </script>
+<style lang="scss">
+.post-list-items,
+.show-post {
+  flex-grow: 1;
+}
+.post-list-title {
+  text-align: center;
+}
+.post-list-items {
+  max-width: 600px;
+}
+.show-post {
+  max-width: 1200px;
+  h1 {
+    margin-top: 0;
+  }
+}
+</style>

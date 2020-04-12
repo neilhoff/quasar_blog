@@ -1,26 +1,30 @@
 # Quasar Blog (quasar_blog)
 
-A Quasar Framework app
+A simple blog system using the Quasar Framework
 
-## Install the dependencies
+## Initial Setup
+
+- Clone this repository
+```
+git clone ....
+```
+- Install dependencies
 ```bash
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## Create a new post
+
+- Create a new markdown file `name.md` in the posts folder 
+  - You can setup the file structure however you want
+  - Example: `posts/2020/03/new-post.md`
+- Add the file location, title and publish date to `posts/postList.js`
+- Start development mode (hot-code reloading, error reporting, etc.) to view live changes
 ```bash
 quasar dev
 ```
-
-### Lint the files
-```bash
-npm run lint
-```
-
-### Build the app for production
+- Build the app for produciton when finished
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+- Commit the code to github (or copy the public folder to your web server )
