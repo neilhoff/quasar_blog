@@ -1,14 +1,21 @@
 <template>
   <div class="left-drawer">
-    <profile-card
-      :author="author"
-      :social="social"
-    />
+    <div
+      class="column items-center q-pa-md"
+      style="max-height: 125px;"
+    >
+      <img
+        src="statics/monitor.png"
+        alt="Mountains"
+        class="drawer-avatar"
+      >
+    </div>
+
     <q-list>
 
-      <q-item-label header>
+      <!-- <q-item-label header>
         Pages
-      </q-item-label>
+      </q-item-label> -->
 
       <essential-link
         v-for="link in pageLinks"
@@ -65,21 +72,21 @@
 
         </q-item-section>
         <q-item-section>
-          <q-btn-group>
+          <q-btn-group flat>
             <q-btn
               icon="fas fa-align-left"
               size="xs"
-              @click="setFontSize('xs')"
+              @click="setFontSize('xs', $event)"
             />
             <q-btn
               icon="fas fa-align-left"
               size="sm"
-              @click="setFontSize('sm')"
+              @click="setFontSize('sm', $event)"
             />
             <q-btn
               icon="fas fa-align-left"
               size="md"
-              @click="setFontSize('md')"
+              @click="setFontSize('md', $event)"
             />
           </q-btn-group>
 
@@ -105,13 +112,13 @@
 <script>
 import { authorConfig } from 'src/config/authorConfig'
 import { leftMenuLinks } from 'src/config/leftMenuLinks'
-import ProfileCard from 'components/ProfileCard'
+// import ProfileCard from 'components/ProfileCard'
 import EssentialLink from 'components/EssentialLink'
 
 export default {
   name: 'LeftDrawer',
   components: {
-    ProfileCard,
+    // ProfileCard,
     EssentialLink
   },
   data () {
@@ -121,16 +128,16 @@ export default {
       author: authorConfig.author,
       social: authorConfig.socialProfiles,
       resourceLinks: leftMenuLinks.resources,
-      pageLinks: leftMenuLinks.pages
+      pageLinks: leftMenuLinks.pages,
+      selectedTextSize: null
     }
   },
   methods: {
     toggleDarkMode () {
       this.$q.dark.toggle()
     },
-    setFontSize (size) {
+    setFontSize (size, event) {
       const htmlElement = document.getElementsByTagName('html')[0]
-      console.log(htmlElement.style.fontSize)
       switch (size) {
         case 'xs':
           htmlElement.style.fontSize = 'small'
@@ -161,9 +168,18 @@ export default {
 </script>
 
 <style lang="scss">
+// .active {
+//   border: 1px solid gray;
+//   padding: 10px;
+//   border-radius: 50%;
+// }
 .left-drawer-active-class {
   background-color: $secondary;
   color: white;
+}
+.drawer-avatar {
+  max-width: 90%;
+  max-height: 100px;
 }
 .drawer-bg-image {
   max-width: 100%;

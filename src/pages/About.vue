@@ -1,14 +1,19 @@
 <template>
-  <q-page>
+  <q-page class="page-with-transparent-header">
     <div class="col">
-      <profile-card
-        :author="author"
-        :social="social"
-        :size="3.5"
-        :backgroundColor="bgColor"
-        :font-color="'white'"
-        :bg-image="profileImageData"
-      />
+      <q-parallax
+        :src="profileImageData.url"
+        :height="profileImageData.height"
+      >
+        <profile-card
+          :author="author"
+          :social="social"
+          :size="3.5"
+          :backgroundColor="bgColor"
+          :font-color="'white'"
+          class="q-pt-xl"
+        />
+      </q-parallax>
     </div>
     <h3 class="text-center">My Story</h3>
     <div class="flex flex-center">
@@ -99,7 +104,7 @@
 <script>
 import ProfileCard from 'components/ProfileCard'
 import { authorConfig } from 'src/config/authorConfig'
-import { colors } from 'quasar'
+// import { colors } from 'quasar'
 
 export default {
   name: 'About',
@@ -110,12 +115,19 @@ export default {
     return {
       author: authorConfig.author,
       social: authorConfig.socialProfiles,
-      bgColor: colors.getBrand('secondary'),
+      bgColor: 'transparent',
       profileImageData: {
         url: 'statics/about-bg.jpg',
         height: 450
       }
     }
+  },
+  mounted () {
+    this.$store.commit('layout/updateHeaderTransparency', true)
+  },
+  beforeRouteLeave (to, from, next) {
+    this.$store.commit('layout/updateHeaderTransparency', false)
+    next()
   }
 }
 </script>

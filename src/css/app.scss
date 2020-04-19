@@ -3,3 +3,15 @@
 body {
   font-size: 1rem; // This allows us to increase and decrease text within the left menu
 }
+
+.body--light {
+  background-color: #ECECFA;
+}
+
+.body--dark {
+  /* ... */
+}
+
+.page-with-transparent-header {
+  margin-top: -92px;
+}

@@ -28,3 +28,20 @@ quasar dev
 quasar build
 ```
 - Commit the code to github (or copy the public folder to your web server )
+
+## Create a page with a transparent header
+
+- Setup the QPage component with a class of `page-with-transparent-header`
+    - `<q-page class="page-with-transparent-header">`
+- Add a mounted that sets the headerTransparency state to true and beforeRouteLeave that sets it to false
+
+```  
+  mounted () {
+    this.$store.commit('layout/updateHeaderTransparency', true)
+  },
+  beforeRouteLeave (to, from, next) {
+    this.$store.commit('layout/updateHeaderTransparency', false)
+    next()
+  }
+
+```

@@ -1,7 +1,12 @@
 export const leftMenuLinks = {
   pages: [
     {
-      title: 'Latest Posts',
+      title: 'home',
+      icon: 'fas fa-home',
+      url: '/'
+    },
+    {
+      title: 'Blog',
       icon: 'fas fa-blog',
       url: '/posts'
     },

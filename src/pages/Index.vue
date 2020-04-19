@@ -1,29 +1,21 @@
 <template>
-  <q-page>
+  <q-page class="page-with-transparent-header">
+    <q-parallax src="statics/tree-bg.jpg">
 
-    <div class="absolute-center">
-      <profile-card
-        :author="author"
-        :social="social"
-        :size="4"
-        :backgroundColor="'white'"
-        :font-color="'black'"
-      />
-
-    </div>
+    </q-parallax>
 
   </q-page>
 </template>
 
 <script>
 import { postList } from 'src/posts/postList'
-import ProfileCard from 'components/ProfileCard'
+// import ProfileCard from 'components/ProfileCard'
 import { authorConfig } from 'src/config/authorConfig'
 
 export default {
   name: 'PageIndex',
   components: {
-    ProfileCard
+    // ProfileCard
   },
   data () {
     return {
@@ -53,6 +45,16 @@ export default {
       console.log(image)
       return require(`src/posts/${image}`)
     }
+  },
+  mounted () {
+    this.$store.commit('layout/updateHeaderTransparency', true)
+  },
+  beforeRouteLeave (to, from, next) {
+    this.$store.commit('layout/updateHeaderTransparency', false)
+    next()
+    // called when the route that renders this component is about to
+    // be navigated away from.
+    // has access to `this` component instance.
   }
 }
 </script>

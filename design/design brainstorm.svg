@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="design brainstorm.svg">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 148.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="210 : 148.5 : 1"
+       inkscape:persp3d-origin="105 : 99 : 1"
+       id="perspective1045" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4600">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="48.643055"
+         y="142.5182"
+         id="text4604"
+         transform="rotate(171.46837)"><tspan
+           sodipodi:role="line"
+           id="tspan4602"
+           x="48.643055"
+           y="142.5182"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HT</tspan></text>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4606">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="48.643055"
+         y="142.5182"
+         id="text4610"
+         transform="rotate(171.46837)"><tspan
+           sodipodi:role="line"
+           id="tspan4608"
+           x="48.643055"
+           y="142.5182"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HT</tspan></text>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4612">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="48.643055"
+         y="142.5182"
+         id="text4616"
+         transform="rotate(171.46837)"><tspan
+           sodipodi:role="line"
+           id="tspan4614"
+           x="48.643055"
+           y="142.5182"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HT</tspan></text>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4650">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="31.404181"
+         y="137.44008"
+         id="text4654"
+         transform="rotate(171.46837)"><tspan
+           sodipodi:role="line"
+           id="tspan4652"
+           x="31.404181"
+           y="137.44008"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HT</tspan></text>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4656">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="31.404181"
+         y="137.44008"
+         id="text4660"
+         transform="rotate(171.46837)"><tspan
+           sodipodi:role="line"
+           id="tspan4658"
+           x="31.404181"
+           y="137.44008"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HT</tspan></text>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4662">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="31.404181"
+         y="137.44008"
+         id="text4666"
+         transform="rotate(171.46837)"><tspan
+           sodipodi:role="line"
+           id="tspan4664"
+           x="31.404181"
+           y="137.44008"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HT</tspan></text>
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="-1692.0313"
+     inkscape:cy="1719.0909"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="false"
+     units="mm"
+     scale-x="1.00001"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     borderlayer="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ececfa;fill-opacity:1;stroke:none;stroke-width:0.26870286;stroke-opacity:1"
+       id="rect5880"
+       width="214.1254"
+       height="300.59998"
+       x="-2.1381562"
+       y="-1.2728009" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.21543953;stroke-opacity:1"
+       id="rect1542-7"
+       width="30.441423"
+       height="11.369949"
+       x="-322.21942"
+       y="-211.22108"
+       transform="matrix(0.99999904,0.00138372,0.71420638,0.69993517,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect1542"
+       width="33.675964"
+       height="15.501634"
+       x="-539.11566"
+       y="-115.3042" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect1534"
+       width="9.7553377"
+       height="18.307962"
+       x="-458.98587"
+       y="-163.50539"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -458.98588,-145.19743 v 0 l -1.53681,-1.73726 v -17.90706 l 1.53681,1.33636 z"
+       id="path1536"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#88aa00;fill-opacity:1;stroke:none;stroke-width:0.51204371;stroke-opacity:1"
+       id="rect932-9-7"
+       width="130.2054"
+       height="130.2054"
+       x="146.68228"
+       y="-163.62225"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.33580977px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 28.667931,-118.47023 v -119.39642 l -44.789828,96.66966 z"
+       id="path938-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.06282162px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -92.226409,-68.133163 2.2e-4,-16.88102 -7.6084,-4.682282 -2.2e-4,16.881052 z"
+       id="path1078"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.06282162px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -84.618009,-72.815423 2.2e-4,-16.881042 -7.60849,4.682282 -2.2e-4,16.88102 z"
+       id="path1080"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.21499076px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 142.49666,-138.52081 v -76.4395 l -28.67517,61.88947 z"
+       id="path938-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#3d3030;fill-opacity:1;stroke:none;stroke-width:0.21499076px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 171.17182,-153.07084 -28.67516,-61.88947 v 76.4395 z"
+       id="path940-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#3b3b62;fill-opacity:1;stroke:none;stroke-width:0.31663582;stroke-opacity:1"
+       id="rect5750"
+       width="147.17734"
+       height="44.50037"
+       x="-162.2326"
+       y="43.494846" />
+    <g
+       id="g4621"
+       transform="translate(-262.19141,-128.82391)">
+      <circle
+         clip-path="url(#clipPath4612)"
+         transform="rotate(-171.46837)"
+         r="11.234372"
+         cy="-118.91404"
+         cx="-83.992828"
+         id="path4552-5-3"
+         style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1" />
+      <circle
+         clip-path="url(#clipPath4606)"
+         transform="rotate(-171.46837)"
+         r="11.234372"
+         cy="-125.17283"
+         cx="-70.727669"
+         id="path4552-7-0"
+         style="fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1" />
+      <circle
+         clip-path="url(#clipPath4600)"
+         transform="rotate(-171.46837)"
+         r="11.234372"
+         cy="-132.52641"
+         cx="-85.553185"
+         id="path4552-6"
+         style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1" />
+    </g>
+    <circle
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1"
+       id="path4552-5"
+       cx="116.02361"
+       cy="-75.867699"
+       r="11.234373"
+       transform="rotate(-171.46837)" />
+    <circle
+       style="fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1"
+       id="path4552-7"
+       cx="131.13895"
+       cy="-82.404053"
+       r="11.234373"
+       transform="rotate(-171.46837)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4518"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4520"><rect
+           id="rect4522"
+           width="226.27417"
+           height="106.06602"
+           x="81.822357"
+           y="106.30622" /></flowRegion><flowPara
+         id="flowPara4524" /></flowRoot>    <circle
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1"
+       id="path4552"
+       cx="116.31343"
+       cy="-89.757645"
+       r="11.234373"
+       transform="rotate(-171.46837)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Papyrus;-inkscape-font-specification:'Papyrus, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-114.27964"
+       y="66.52005"
+       id="text4528-7"><tspan
+         sodipodi:role="line"
+         id="tspan4526-6"
+         x="-114.27964"
+         y="66.52005"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#02b3e3;fill-opacity:1;stroke-width:0.26458332">technologies</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-148.60187"
+       y="67.904289"
+       id="text4528"><tspan
+         sodipodi:role="line"
+         id="tspan4526"
+         x="-148.60187"
+         y="67.904289"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HOFF </tspan></text>
+    <g
+       id="g4682"
+       transform="translate(-245.08616,-107.44235)">
+      <circle
+         clip-path="url(#clipPath4662)"
+         transform="rotate(-171.46837)"
+         r="11.234371"
+         cy="-122.70837"
+         cx="-52.92617"
+         id="path4552-7-0-1"
+         style="fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1" />
+      <circle
+         clip-path="url(#clipPath4656)"
+         transform="rotate(-171.46837)"
+         r="11.234371"
+         cy="-120.37463"
+         cx="-67.05043"
+         id="path4552-5-3-7"
+         style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1" />
+      <circle
+         clip-path="url(#clipPath4650)"
+         transform="rotate(-171.46837)"
+         r="11.234371"
+         cy="-133.22055"
+         cx="-64.712158"
+         id="path4552-6-0"
+         style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1" />
+    </g>
+    <circle
+       style="fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1"
+       id="path4552-7-0-1-1"
+       cx="191.56999"
+       cy="-93.578194"
+       r="11.23437"
+       transform="rotate(-171.46837)" />
+    <circle
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1"
+       id="path4552-5-3-7-6"
+       cx="177.44572"
+       cy="-91.244469"
+       r="11.23437"
+       transform="rotate(-171.46837)" />
+    <circle
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.20220837;stroke-opacity:1"
+       id="path4552-6-0-1"
+       cx="179.784"
+       cy="-104.09039"
+       r="11.23437"
+       transform="rotate(-171.46837)" />
+    <g
+       id="g5728"
+       transform="translate(-273.19742,-23.767319)">
+      <path
+         id="path4552-5-3-7-0"
+         transform="scale(0.26458333)"
+         d="m 307.95312,458.70703 a 42.460611,42.460611 0 0 0 -37.57617,24.62305 h 12.28516 v 49.76562 h -1.75586 a 42.460611,42.460611 0 0 0 21.67773,10.05274 42.460611,42.460611 0 0 0 48.28907,-35.69141 42.460611,42.460611 0 0 0 -35.69141,-48.28906 42.460611,42.460611 0 0 0 -7.22852,-0.46094 z m -19.7871,24.62305 h 37.4414 v 14.29101 h -11.30078 v 35.47461 h -14.80273 v -35.47461 h -11.33789 z m -20.30664,6.95117 a 42.460611,42.460611 0 0 0 -0.9668,4.57813 42.460611,42.460611 0 0 0 0.9668,17.18945 z"
+         style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.76425213;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4552-7-0-1-2"
+         transform="scale(0.26458333)"
+         d="m 253.85352,459.50977 a 42.460611,42.460611 0 0 0 -41.0625,36.15234 42.460611,42.460611 0 0 0 35.6914,48.28906 42.460611,42.460611 0 0 0 48.29102,-35.6914 42.460611,42.460611 0 0 0 0.19336,-10.63868 h -8.80078 v -14.29101 h 4.76562 a 42.460611,42.460611 0 0 0 -31.84961,-23.35938 42.460611,42.460611 0 0 0 -7.22851,-0.46093 z m -7.4336,23.82031 h 14.80274 v 17.79101 h 4.11914 v 13.125 h -4.11914 v 18.84961 h -14.80274 z m 21.4375,0 h 14.80274 v 49.76562 h -14.80274 z"
+         style="fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.76425213;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4552-6-0-8"
+         transform="scale(0.26458333)"
+         d="m 287.9707,503.39062 a 42.460611,42.460611 0 0 0 -5.31054,0.49219 v 29.21289 h -14.80078 v -24.12695 a 42.460611,42.460611 0 0 0 -2.51563,1.60156 v 3.67578 h -4.12109 v 18.84961 h -12.76954 a 42.460611,42.460611 0 0 0 -1.54492,6.44532 42.460611,42.460611 0 0 0 35.69141,48.29101 42.460611,42.460611 0 0 0 48.29101,-35.69141 42.460611,42.460611 0 0 0 -16.58398,-40.27539 v 21.23047 h -14.80273 v -28.32226 a 42.460611,42.460611 0 0 0 -4.30469,-0.92383 42.460611,42.460611 0 0 0 -7.22852,-0.45899 z"
+         style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.76425213;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-208.00241"
+       y="71.781418"
+       id="text4528-6"><tspan
+         sodipodi:role="line"
+         id="tspan4526-3"
+         x="-208.00241"
+         y="71.781418"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HFFt</tspan></text>
+    <rect
+       style="fill:#3b3b62;fill-opacity:1;stroke:none;stroke-width:0.29364416;stroke-opacity:1"
+       id="rect5750-7"
+       width="213.70901"
+       height="26.357517"
+       x="-1.7217703"
+       y="-1.2728009" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.3533907"
+       y="12.547481"
+       id="text4528-9"><tspan
+         sodipodi:role="line"
+         id="tspan4526-7"
+         x="3.3533907"
+         y="12.547481"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HOFF </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Papyrus;-inkscape-font-specification:'Papyrus, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="12.316743"
+       y="19.072979"
+       id="text4528-7-7"><tspan
+         sodipodi:role="line"
+         id="tspan4526-6-6"
+         x="12.316743"
+         y="19.072979"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#de8787;fill-opacity:1;stroke-width:0.26458332">technologies</tspan></text>
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect5826"
+       width="21.54464"
+       height="8.8824339"
+       x="184.15269"
+       y="7.4647479"
+       rx="3" />
+    <rect
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect5826-4"
+       width="21.54464"
+       height="8.8824339"
+       x="161.54974"
+       y="7.4647479"
+       rx="3" />
+    <rect
+       style="fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect5826-4-5"
+       width="21.54464"
+       height="8.8824339"
+       x="138.94676"
+       y="7.4647479"
+       rx="3" />
+    <ellipse
+       style="fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.38253197;stroke-opacity:1"
+       id="path4552-7-0-1-1-4"
+       cx="2.2794354"
+       cy="-77.421242"
+       transform="matrix(-0.87931252,0.47624521,-0.54550264,-0.8381091,0,0)"
+       rx="21.724421"
+       ry="20.791529" />
+    <ellipse
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.38253197;stroke-opacity:1"
+       id="path4552-5-3-7-6-6"
+       cx="-53.196236"
+       cy="-108.94469"
+       transform="matrix(-0.87931252,0.47624521,-0.54550264,-0.8381091,0,0)"
+       rx="21.724421"
+       ry="20.791529" />
+    <ellipse
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.38253197;stroke-opacity:1"
+       id="path4552-6-0-1-9"
+       cx="-108.67187"
+       cy="-140.4682"
+       transform="matrix(-0.87931252,0.47624521,-0.54550264,-0.8381091,0,0)"
+       rx="21.724421"
+       ry="20.791529" />
+    <rect
+       style="fill:#ececfa;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect5882"
+       width="76.729164"
+       height="46.869045"
+       x="-145.89882"
+       y="-19.366079" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ececfa;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="path889"
+       sodipodi:sides="3"
+       sodipodi:cx="-140.22915"
+       sodipodi:cy="159.79464"
+       sodipodi:r1="42.449604"
+       sodipodi:r2="21.224802"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -103.46672,181.01945 -73.52487,0 36.76243,-63.67441 z"
+       inkscape:transform-center-x="-3.3999999e-006"
+       inkscape:transform-center-y="-10.612401" />
+    <path
+       sodipodi:type="star"
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="path889-6"
+       sodipodi:sides="3"
+       sodipodi:cx="-107.72322"
+       sodipodi:cy="162.09155"
+       sodipodi:r1="42.449604"
+       sodipodi:r2="21.224804"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -70.960785,183.31635 -73.524875,0 36.76244,-63.6744 z"
+       inkscape:transform-center-x="-1.4844826e-006"
+       inkscape:transform-center-y="-12.376299"
+       transform="matrix(1.0976751,0,0,1.1662101,8.065029,-19.885708)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="path889-4"
+       sodipodi:sides="3"
+       sodipodi:cx="-137.58333"
+       sodipodi:cy="179.47846"
+       sodipodi:r1="42.449604"
+       sodipodi:r2="21.224804"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -100.82089,200.70326 -73.52487,0 36.76243,-63.67441 z"
+       inkscape:transform-center-x="-3.3999999e-006"
+       inkscape:transform-center-y="-10.612401" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-147.34842"
+       y="175.36623"
+       id="text4528-2"><tspan
+         sodipodi:role="line"
+         id="tspan4526-4"
+         x="-147.34842"
+         y="175.36623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HOFF </tspan></text>
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.1556232;stroke-opacity:1"
+       id="rect932"
+       width="39.572758"
+       height="39.572758"
+       x="125.47566"
+       y="-453.36908"
+       transform="matrix(0.89176881,-0.45249131,0.89176881,0.45249131,0,0)" />
+    <path
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.29573295px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 76.611268,-171.05443 v -105.1472 l -39.444437,85.13273 z"
+       id="path938-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#015167;fill-opacity:1;stroke:none;stroke-width:0.33580977px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 73.457754,-141.19699 -44.789823,-96.66966 v 119.39642 z"
+       id="path940-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#015167;fill-opacity:1;stroke:none;stroke-width:0.29573295px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 116.0557,-191.0689 -39.444432,-85.13273 v 105.1472 z"
+       id="path940-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.33580977px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 69.031666,-130.34408 V -249.7405 l -44.789827,96.66966 z"
+       id="path938"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -4.8626797,-99.399627 v -94.072023 l -35.2897473,76.16569 z"
+       id="path938-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#591919;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 30.42707,-117.30596 -35.2897497,-76.16569 v 94.072023 z"
+       id="path940-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#015167;fill-opacity:1;stroke:none;stroke-width:0.33580977px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 113.82149,-153.07084 69.031666,-249.7405 v 119.39642 z"
+       id="path940"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 30.427068,-81.493296 V -175.56531 L -4.8626797,-99.399627 Z"
+       id="path938-5-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#591919;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 65.716817,-99.399627 30.427068,-175.56531 v 94.072014 z"
+       id="path940-7-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 65.716817,-63.586964 V -157.65899 L 30.427068,-81.493296 Z"
+       id="path938-5-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#591919;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 101.00657,-81.493296 65.716817,-157.65899 v 94.072026 z"
+       id="path940-7-06"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.21499076px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -92.226189,-78.664179 v -76.439501 l -28.675161,61.889475 z"
+       id="path938-8-8"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.21499076px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -63.551029,-93.214205 -28.67516,-61.889475 v 76.439501 z"
+       id="path940-8-5"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.1556232;stroke-opacity:1"
+       id="rect932-1"
+       width="39.572758"
+       height="39.572758"
+       x="106.36475"
+       y="-485.20679"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.02017595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 111.94255,-139.0999 7e-5,-5.42155 -2.44354,-1.50377 -7e-5,5.42156 z"
+       id="path1078-4-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.02017595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 114.38608,-140.60366 7e-5,-5.42156 -2.44356,1.50377 -7e-5,5.42155 z"
+       id="path1080-6-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.06904697px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 111.94262,-144.52145 v -24.54951 l -9.20939,19.87658 z"
+       id="path938-8-8-5-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.06904697px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 121.15201,-149.19438 -9.20939,-19.87658 v 24.54951 z"
+       id="path940-8-5-0-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.1556232;stroke-opacity:1"
+       id="rect932-9"
+       width="39.572758"
+       height="39.572758"
+       x="144.58658"
+       y="-381.95862"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.1556232;stroke-opacity:1"
+       id="rect932-1-2"
+       width="39.572758"
+       height="39.572758"
+       x="125.76369"
+       y="-414.67773"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.04147028;stroke-opacity:1"
+       id="rect932-9-6"
+       width="10.5453"
+       height="10.5453"
+       x="204.12003"
+       y="-105.5183"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.04147028;stroke-opacity:1"
+       id="rect932-9-6-3"
+       width="10.5453"
+       height="10.5453"
+       x="204.12003"
+       y="-94.973007"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.04147028;stroke-opacity:1"
+       id="rect932-9-6-6"
+       width="10.5453"
+       height="10.5453"
+       x="193.57472"
+       y="-84.427704"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.04147028;stroke-opacity:1"
+       id="rect932-9-6-0"
+       width="10.5453"
+       height="10.5453"
+       x="183.02942"
+       y="-84.427704"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.04147028;stroke-opacity:1"
+       id="rect932-9-6-4"
+       width="10.5453"
+       height="10.5453"
+       x="183.02942"
+       y="-73.882401"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.04147028;stroke-opacity:1"
+       id="rect932-9-6-7"
+       width="10.5453"
+       height="10.5453"
+       x="183.02942"
+       y="-63.337101"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.04147028;stroke-opacity:1"
+       id="rect932-9-6-42"
+       width="10.5453"
+       height="10.5453"
+       x="183.02942"
+       y="-52.791801"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.04147028;stroke-opacity:1"
+       id="rect932-9-6-1"
+       width="10.5453"
+       height="10.5453"
+       x="183.02942"
+       y="-42.246502"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.02017595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 90.346724,-128.67895 7e-5,-5.42155 -2.44354,-1.50377 -7e-5,5.42156 z"
+       id="path1078-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.02017595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 92.790254,-130.18271 7e-5,-5.42156 -2.44356,1.50377 -7e-5,5.42155 z"
+       id="path1080-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.06904697px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 90.346794,-132.06111 v -24.54951 l -9.20939,19.87658 z"
+       id="path938-8-8-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.06904697px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 99.556188,-136.73404 -9.209394,-19.87658 v 24.54951 z"
+       id="path940-8-5-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.01436511px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 125.7064,-93.537819 5e-5,-3.646279 -1.84179,-1.01136 -6e-5,3.646282 z"
+       id="path1078-4-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.01436511px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 127.54821,-94.549176 5e-5,-3.646282 -1.84183,1.01136 -5e-5,3.646279 z"
+       id="path1080-6-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.04916089px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 125.70645,-95.812498 v -16.510822 l -6.94152,13.368032 z"
+       id="path938-8-8-5-35"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.04916089px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 132.64799,-98.955288 -6.94154,-13.368032 v 16.510822 z"
+       id="path940-8-5-0-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.01461337px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 122.97886,-134.35784 5e-5,-3.92682 -1.76985,-1.08918 -5e-5,3.92682 z"
+       id="path1078-4-2-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.01461337px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 124.7487,-135.44702 5e-5,-3.92682 -1.76986,1.08918 -5e-5,3.92682 z"
+       id="path1080-6-2-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.05001048px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 122.97891,-138.28466 v -17.78113 l -6.67033,14.39654 z"
+       id="path938-8-8-5-0-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.05001048px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 129.64924,-141.66925 -6.67033,-14.39654 v 17.78113 z"
+       id="path940-8-5-0-2-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.04147028;stroke-opacity:1"
+       id="rect932-9-6-2"
+       width="10.5453"
+       height="10.5453"
+       x="204.12003"
+       y="-84.427704"
+       transform="matrix(0.89176881,-0.45249132,0.89176881,0.45249132,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.01800455px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 117.56564,-115.89628 7e-5,-4.23056 -2.49368,-1.17342 -7e-5,4.23057 z"
+       id="path1078-4-03"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.01800455px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 120.05931,-117.06969 8e-5,-4.23057 -2.49371,1.17342 -7e-5,4.23056 z"
+       id="path1080-6-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.06161591px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 117.56571,-118.53545 v -19.15656 l -9.39834,15.51016 z"
+       id="path938-8-8-5-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.06161591px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 126.96408,-122.18185 -9.39837,-15.51016 v 19.15656 z"
+       id="path940-8-5-0-88"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.01396541px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 99.117771,-105.14277 5e-5,-3.7527 -1.69137,-1.04088 -4e-5,3.7527 z"
+       id="path1078-4-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.01396541px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 100.80914,-106.18365 5e-5,-3.7527 -1.691389,1.04088 -5e-5,3.7527 z"
+       id="path1080-6-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.04779302px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 99.117821,-107.48384 v -16.99271 l -6.37456,13.7582 z"
+       id="path938-8-8-5-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.04779302px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 105.49239,-110.71835 -6.374569,-13.7582 v 16.99271 z"
+       id="path940-8-5-0-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.02017595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 148.92255,-113.69042 7e-5,-5.42155 -2.44354,-1.50377 -7e-5,5.42156 z"
+       id="path1078-4-06"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.02017595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 151.36608,-115.19418 7e-5,-5.42156 -2.44356,1.50377 -7e-5,5.42155 z"
+       id="path1080-6-81"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.06904697px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 148.92262,-117.07258 v -24.54951 l -9.20939,19.87658 z"
+       id="path938-8-8-5-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.06904697px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 158.13201,-121.74551 -9.20939,-19.87658 v 24.54951 z"
+       id="path940-8-5-0-29"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\Mountains.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="37.478848"
+       y="156.41772"
+       id="text4528-9-4"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4526-7-8"
+         x="37.478848"
+         y="156.41772"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">HOFF </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Papyrus;-inkscape-font-specification:'Papyrus, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="46.4422"
+       y="162.94322"
+       id="text4528-7-7-5"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\logo.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4526-6-6-1"
+         x="46.4422"
+         y="162.94322"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#de8787;fill-opacity:1;stroke-width:0.26458332">technologies</tspan></text>
+    <rect
+       style="fill:#88aa00;fill-opacity:1;stroke:none;stroke-width:0.18866046;stroke-opacity:1"
+       id="rect1453"
+       width="43.74942"
+       height="44.682705"
+       x="-757.43152"
+       y="-210.64105"
+       transform="matrix(0.94671686,0.32206705,-0.95166131,0.30714941,0,0)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -559.13709,-294.91774 v 14.09023 l 41.41829,15.49242 v -15.49242 z"
+       id="path1459"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -517.7188,-280.82751 42.52281,-13.72426 -0.009,13.72426 -42.51356,15.49242 z"
+       id="path1463"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#88aa00;fill-opacity:1;stroke:none;stroke-width:0.2135047;stroke-opacity:1"
+       id="rect1465"
+       width="45.5061"
+       height="19.421057"
+       x="139.36653"
+       y="-667.44885"
+       transform="matrix(0.96653494,-0.256535,0.91012554,0.4143326,0,0)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -455.08398,-304.25143 -17.6756,-8.04677 v 5.80361 l 17.6756,8.55262 z"
+       id="path1475"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -455.08398,-297.94197 43.98325,-12.23116 -3e-5,-5.7522 -43.98322,11.6739 z"
+       id="path1477"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect1481"
+       width="88.733482"
+       height="44.366741"
+       x="-497.65585"
+       y="-201.1904"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.24742135;stroke-opacity:1"
+       id="rect1481-9"
+       width="85.118629"
+       height="40.445473"
+       x="-495.84842"
+       y="-199.22977"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect1481-3"
+       width="88.733482"
+       height="44.366741"
+       x="-393.46115"
+       y="-101.16971" />
+    <path
+       style="fill:#808080;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -393.46114,-101.16971 -5.61266,-2.40542 v 42.495846 l 5.61266,4.27632 z"
+       id="path1483-0"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.24414404;stroke-opacity:1"
+       id="rect1481-9-5"
+       width="84.457169"
+       height="39.689522"
+       x="-391.18936"
+       y="-99.03154" />
+    <path
+       style="fill:#b3b3b3;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -393.46113,-101.16971 -5.61266,-2.40542 86.06078,0.26727 8.28537,2.13815 z"
+       id="path1502-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#808080;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -497.65584,-156.82365 -2.13818,-1.87089 v -43.29767 l 2.13818,0.80181 z"
+       id="path1530"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#808080;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m -497.65584,-201.1904 -2.13818,-0.80181 h 88.86714 l 2.00453,0.80181 z"
+       id="path1532"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#b3b3b3;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -505.4397,-99.802559 -0.76877,0.57549 h -33.4087 l 0.50149,-0.57549 z"
+       id="path1546"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#b3b3b3;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -539.61717,-99.227069 v -16.437081 l 0.50149,0.35995 v 15.501641 z"
+       id="path1548"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -464.95403,-140.3287 -0.0265,0.79807 h 30.46791 l -3e-5,-0.75595 z"
+       id="path1571"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -464.95406,-140.3287 -0.0265,0.79807 -8.09402,-8.09402 v -0.66228 z"
+       id="path1577"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#88aa00;fill-opacity:1;stroke:none;stroke-width:0.12487403;stroke-opacity:1"
+       id="rect932-9-7-3"
+       width="31.753681"
+       height="31.753681"
+       x="74.573235"
+       y="-573.06012"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#88aa00;fill-opacity:1;stroke:none;stroke-width:0.12449502;stroke-opacity:1"
+       id="rect932-9-7-3-2-8"
+       width="31.657303"
+       height="31.657303"
+       x="54.056133"
+       y="-569.78052"
+       transform="matrix(0.96147119,-0.27490572,0.96147119,0.27490572,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.06618825px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -467.88679,-174.25695 v -17.6364 l -11.77976,14.27935 z"
+       id="path938-9-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#88aa00;fill-opacity:1;stroke:none;stroke-width:0.12487403;stroke-opacity:1"
+       id="rect932-9-7-3-2"
+       width="31.753679"
+       height="31.753679"
+       x="75.046082"
+       y="-565.56128"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.04237476px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -437.94978,-177.21868 v -11.29111 l -7.54158,9.14187 z"
+       id="path938-8-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#3d3030;fill-opacity:1;stroke:none;stroke-width:0.04237476px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -430.40819,-179.36792 -7.54159,-9.14187 v 11.29111 z"
+       id="path940-8-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.05828909px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -455.27766,-182.02432 v -15.5316 l -10.37393,12.57521 z"
+       id="path938-7-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#015167;fill-opacity:1;stroke:none;stroke-width:0.06618825px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -456.10703,-177.614 -11.77976,-14.27935 v 17.6364 z"
+       id="path940-1-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#015167;fill-opacity:1;stroke:none;stroke-width:0.05828909px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -444.90377,-184.98071 -10.37389,-12.57521 v 15.5316 z"
+       id="path940-4-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.06618825px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -457.27112,-176.01088 v -17.63639 l -11.77975,14.27935 z"
+       id="path938-96"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.05214949px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -476.70536,-171.43998 v -13.89566 l -9.28122,11.25066 z"
+       id="path938-5-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#591919;fill-opacity:1;stroke:none;stroke-width:0.05214949px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -467.42413,-174.08498 -9.28123,-11.25066 v 13.89566 z"
+       id="path940-7-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#015167;fill-opacity:1;stroke:none;stroke-width:0.06618825px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -445.49136,-179.36792 -11.77976,-14.27935 v 17.63639 z"
+       id="path940-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.05214949px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -467.42413,-168.79498 v -13.89566 l -9.28123,11.25066 z"
+       id="path938-5-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#591919;fill-opacity:1;stroke:none;stroke-width:0.05214949px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -458.14292,-171.43998 -9.28121,-11.25066 v 13.89566 z"
+       id="path940-7-0-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#de8787;fill-opacity:1;stroke:none;stroke-width:0.05214949px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -458.14292,-166.14999 v -13.89565 l -9.28121,11.25066 z"
+       id="path938-5-5-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#591919;fill-opacity:1;stroke:none;stroke-width:0.05214949px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -448.86168,-168.79498 -9.28124,-11.25066 v 13.89565 z"
+       id="path940-7-06-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.00397668px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -445.98552,-177.30422 1e-5,-0.80084 -0.64265,-0.22212 -2e-5,0.80083 z"
+       id="path1078-4-2-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.00397668px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -445.34289,-177.52635 3e-5,-0.80083 -0.64266,0.22212 v 0.80084 z"
+       id="path1080-6-2-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.01360919px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -445.98551,-178.10506 v -3.62628 l -2.42208,2.93603 z"
+       id="path938-8-8-5-0-38"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.01360919px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -443.56343,-178.79531 -2.42208,-2.93603 v 3.62628 z"
+       id="path940-8-5-0-2-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.01011352;stroke-opacity:1"
+       id="rect932-9-6-60"
+       width="2.571722"
+       height="2.571722"
+       x="88.58078"
+       y="-558.89014"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.01011352;stroke-opacity:1"
+       id="rect932-9-6-3-5"
+       width="2.571722"
+       height="2.571722"
+       x="88.58078"
+       y="-556.31836"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.01011352;stroke-opacity:1"
+       id="rect932-9-6-6-3"
+       width="2.571722"
+       height="2.571722"
+       x="86.009071"
+       y="-553.74658"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.01011352;stroke-opacity:1"
+       id="rect932-9-6-0-1"
+       width="2.571722"
+       height="2.571722"
+       x="83.437332"
+       y="-553.74658"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.01011352;stroke-opacity:1"
+       id="rect932-9-6-4-8"
+       width="2.571722"
+       height="2.571722"
+       x="83.437332"
+       y="-551.17493"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.01011352;stroke-opacity:1"
+       id="rect932-9-6-7-6"
+       width="2.571722"
+       height="2.571722"
+       x="83.437332"
+       y="-548.60315"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.01011352;stroke-opacity:1"
+       id="rect932-9-6-42-6"
+       width="2.571722"
+       height="2.571722"
+       x="83.437332"
+       y="-546.03149"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.01011352;stroke-opacity:1"
+       id="rect932-9-6-1-8"
+       width="2.571722"
+       height="2.571722"
+       x="83.437332"
+       y="-543.45972"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.00397668px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -451.66524,-175.76492 10e-6,-0.80083 -0.64264,-0.22213 -2e-5,0.80084 z"
+       id="path1078-4-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.00397668px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -451.0226,-175.98704 4e-5,-0.80084 -0.64267,0.22213 -10e-6,0.80083 z"
+       id="path1080-6-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.01360919px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -451.66523,-176.2645 v -3.62628 l -2.42207,2.93602 z"
+       id="path938-8-8-5-07"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.01360919px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -449.24315,-176.95476 -2.42208,-2.93602 v 3.62628 z"
+       id="path940-8-5-0-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.00283137px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -442.36564,-170.57412 3e-5,-0.5386 -0.48439,-0.14939 -4e-5,0.53861 z"
+       id="path1078-4-9-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.00283137px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -441.88123,-170.7235 1e-5,-0.53861 -0.48439,0.14939 -3e-5,0.5386 z"
+       id="path1080-6-3-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.00968963px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -442.36561,-170.91011 v -2.43887 l -1.82562,1.97463 z"
+       id="path938-8-8-5-35-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.00968963px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -440.53998,-171.37435 -1.82563,-1.97463 v 2.43887 z"
+       id="path940-8-5-0-8-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.00288031px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -443.08296,-176.60376 1e-5,-0.58004 -0.46548,-0.16089 -1e-5,0.58005 z"
+       id="path1078-4-2-6-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.00288031px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -442.6175,-176.76464 v -0.58005 l -0.46546,0.16089 v 0.58004 z"
+       id="path1080-6-2-5-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.00985709px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -443.08295,-177.1838 v -2.62651 l -1.75432,2.12656 z"
+       id="path938-8-8-5-0-3-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.00985709px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -441.32866,-177.68375 -1.75429,-2.12656 v 2.62651 z"
+       id="path940-8-5-0-2-7-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#02b3e3;fill-opacity:1;stroke:none;stroke-width:0.01011352;stroke-opacity:1"
+       id="rect932-9-6-2-5"
+       width="2.571722"
+       height="2.571722"
+       x="88.58078"
+       y="-553.74658"
+       transform="matrix(0.96170936,-0.27407135,0.96170936,0.27407135,0,0)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.0035487px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -444.50665,-173.87674 2e-5,-0.62491 -0.65583,-0.17333 -3e-5,0.6249 z"
+       id="path1078-4-03-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.0035487px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -443.85082,-174.05008 3e-5,-0.6249 -0.65586,0.17333 v 0.62491 z"
+       id="path1080-6-1-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.01214452px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -444.50663,-174.2666 v -2.82966 l -2.47177,2.29105 z"
+       id="path938-8-8-5-8-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.01214452px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -442.03484,-174.80521 -2.47179,-2.29105 v 2.82966 z"
+       id="path940-8-5-0-88-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.00275259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -449.35844,-172.28832 10e-6,-0.55432 -0.44484,-0.15375 v 0.55432 z"
+       id="path1078-4-0-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.00275259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -448.91362,-172.44207 v -0.55432 l -0.44482,0.15375 -1e-5,0.55432 z"
+       id="path1080-6-8-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.00942002px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -449.35843,-172.63412 v -2.51005 l -1.67652,2.03226 z"
+       id="path938-8-8-5-3-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.00942002px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -447.68193,-173.11191 -1.6765,-2.03226 v 2.51005 z"
+       id="path940-8-5-0-6-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.00397668px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -436.25977,-173.55091 2e-5,-0.80084 -0.64264,-0.22213 -2e-5,0.80084 z"
+       id="path1078-4-06-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#403232;fill-opacity:1;stroke:none;stroke-width:0.00397668px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -435.61712,-173.77304 4e-5,-0.80084 -0.64267,0.22213 -2e-5,0.80084 z"
+       id="path1080-6-81-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#bcd35f;fill-opacity:1;stroke:none;stroke-width:0.01360919px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -436.25975,-174.0505 v -3.62628 l -2.42207,2.93602 z"
+       id="path938-8-8-5-4-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#363f11;fill-opacity:1;stroke:none;stroke-width:0.01360919px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -433.83767,-174.74076 -2.42208,-2.93602 v 3.62628 z"
+       id="path940-8-5-0-29-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#4d4d4d;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -495.85409,-171.49626 v 1.60363 l 30.43758,8.88671 -2e-5,-1.78757 z"
+       id="path1918"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#4d4d4d;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -465.41652,-162.79349 2e-5,1.78757 19.07641,-5.70671 v -1.73727 z"
+       id="path1922"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#4d4d4d;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -446.34009,-168.4499 v 1.73727 l 5.14485,1.63703 -3e-5,-1.79375 z"
+       id="path1928"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#666666;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -441.19527,-166.86935 3e-5,1.79375 30.53781,-8.95353 -3e-5,-1.543 z"
+       id="path1934"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#d7eef4;fill-opacity:1;stroke:none;stroke-width:0.35714287;stroke-opacity:1"
+       d="m -1873.7746,-700.5809 v -52.16692 h 160.7143 160.7143 v 44.50249 c 0,35.45296 -0.091,44.46854 -0.4465,44.33552 -0.2455,-0.0918 -18.6386,-5.34896 -40.8735,-11.6825 l -40.4272,-11.51552 -10.4213,-12.64143 c -5.7317,-6.95278 -10.5488,-12.64142 -10.7047,-12.64142 -0.1559,0 -3.2295,3.6056 -6.8302,8.01245 -4.5002,5.5078 -6.7699,8.01667 -7.2609,8.02594 -0.3929,0.007 -3.361,-0.75101 -6.5958,-1.68539 l -5.8815,-1.69889 -19.2971,-23.44436 c -10.6134,-12.89439 -19.4551,-23.40318 -19.6482,-23.35285 -0.1932,0.0503 -7.5703,8.83794 -16.3936,19.52802 -8.8233,10.69008 -16.1357,19.42724 -16.2497,19.41592 -0.1141,-0.0113 -3.4545,-3.94883 -7.4232,-8.75 -3.9686,-4.80118 -7.3761,-8.72941 -7.5721,-8.72941 -0.196,0 -6.2561,7.15178 -13.467,15.89285 -7.2108,8.74108 -13.2399,15.89286 -13.3979,15.89286 -0.1581,0 -1.6869,-1.6707 -3.3974,-3.71267 -2.5297,-3.01981 -3.183,-3.6157 -3.5005,-3.19311 -3.0329,4.03692 -33.9498,41.01443 -34.406,41.15052 -0.3449,0.10292 -8.5825,2.45171 -18.3057,5.21955 -9.7232,2.76783 -17.9598,5.11632 -18.3036,5.21885 -0.5932,0.17695 -0.625,-2.46479 -0.625,-51.9805 z"
+       id="path1936"
+       inkscape:connector-curvature="0"
+       transform="scale(0.26458333)"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#48373e;fill-opacity:1;stroke:#48373e;stroke-width:0.03156727;stroke-opacity:1"
+       d="M -1874.0371 -642.07422 C -1874.0501 -642.07386 -1874.0605 -632.64165 -1874.0605 -621.11328 C -1874.0605 -602.50262 -1874.0557 -600.15234 -1874.0137 -600.15234 C -1873.9767 -600.15234 -1873.9668 -602.49588 -1873.9668 -621.06445 C -1873.9668 -640.12252 -1873.961 -641.97852 -1873.916 -641.97852 C -1873.8885 -641.97852 -1873.7526 -641.94966 -1873.6133 -641.91406 C -1873.4741 -641.87846 -1873.3471 -641.85338 -1873.3301 -641.85938 C -1873.3019 -641.86875 -1873.9831 -642.07522 -1874.0371 -642.07422 z M -1873.9551 -603.64258 C -1873.9651 -603.45919 -1873.9648 -602.87112 -1873.9648 -602.33398 C -1873.9718 -600.7117 -1873.98 -600.18594 -1873.998 -600.14844 C -1874.005 -600.13444 -1874.0193 -600.13183 -1874.0293 -600.14453 C -1874.0433 -600.16518 -1874.0466 -600.28879 -1874.0566 -600.66602 C -1874.0596 -600.91177 -1874.0684 -601.98953 -1874.0684 -602.48828 C -1874.0684 -602.64562 -1874.0679 -602.17961 -1874.0684 -601.45312 L -1874.0684 -600.13086 L -1874.0117 -600.13086 L -1873.9531 -600.13086 L -1873.9551 -602.05469 C -1873.9551 -603.11214 -1873.9547 -603.82597 -1873.9551 -603.64258 z "
+       transform="scale(0.26458333)"
+       id="path1940"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g1957"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="scale(0.26458333)"
+         inkscape:connector-curvature="0"
+         id="path1938"
+         d="m -1873.7746,-621.00083 v -20.753 l 0.9821,0.23967 c 0.5402,0.13181 26.3554,7.64544 57.3672,16.69694 l 56.3849,16.45729 36.0377,-10.78254 36.0377,-10.78253 9.728,3.08985 9.728,3.08985 57.3659,-16.82269 c 31.5512,-9.25248 57.4629,-16.82269 57.5815,-16.82269 0.1186,0 0.2156,12.85714 0.2156,28.57143 v 28.57143 h -160.7143 -160.7143 z"
+         style="fill:#48373e;fill-opacity:1;stroke:#48373e;stroke-width:0.35714287;stroke-opacity:1" />
+      <rect
+         y="-168.74329"
+         x="-495.67041"
+         height="9.7637863"
+         width="2.8110552"
+         id="rect1948"
+         style="fill:#48373e;fill-opacity:1;stroke:#48373e;stroke-width:0.38460684;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1952"
+         d="m -495.85408,-169.89263 6.11441,1.7902 v 0.92375 l -6.10375,-1.73057 z"
+         style="fill:#48373e;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.55837822px;line-height:1.25;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19913289"
+       x="-494.53268"
+       y="-190.36372"
+       id="text4528-9-8"
+       inkscape:export-filename="C:\Users\neilhoff\Documents\bitbucket\quasar_blog\src\statics\monitor.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4526-7-87"
+         x="-494.53268"
+         y="-190.36372"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.55837822px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.19913289">HOFF </tspan></text>
+  </g>
+</svg>
