@@ -1,8 +1,12 @@
 <template>
   <q-page padding>
-    <div v-if="postListVisable">
-      <h1 class="post-list-title">Blog Posts</h1>
-      <div class="flex flex-center">
+    <div class="column items-center">
+      <!-- <h1 class="post-list-title">Blog</h1> -->
+      <img
+        src="statics/blog.png"
+        alt="Blog"
+      >
+      <div class="">
         <div class="post-list-items q-mx-sm">
           <q-card
             class="q-ma-md"
@@ -16,7 +20,7 @@
                 :alt="post.imageAlt"
               />
 
-              <q-card-actions
+              <!-- <q-card-actions
                 vertical
                 class="justify-around q-px-md"
               >
@@ -38,7 +42,7 @@
                   color="primary"
                   icon="share"
                 />
-              </q-card-actions>
+              </q-card-actions> -->
             </q-card-section>
 
             <q-card-section>
@@ -71,8 +75,6 @@ export default {
   },
   methods: {
     getPost (fileName) {
-      this.postVisable = true
-      this.postListVisable = false
       this.post = require(`src/posts/${fileName}`)
     },
     slug (fileName) {
