@@ -3,32 +3,44 @@
     {
       "title": "Build a Blog using Quasar and Markdown",
       "description": "Use Quasar and markdown to build a personal blog",
-      "image": "technology/2020/04/21/books.jpg",
-      "imageAlt": "Photo by Alfons Morales on Unsplash",
+      "headerImage": "books.jpg",
+      "headerImageAlt": "Photo by Alfons Morales on Unsplash",
       "publishDate": "4/21/2020",
       "tags": [
         "technology",
         "code"
-      ]
-    },
-    {
-      "title": "This is a Test Title",
-      "description": "Do quis proident exercitation irure voluptate aliquip incididunt id laborum. Occaecat proident magna incididunt fugiat tempor labore velit consectetur culpa ullamco fugiat dolor. Tempor velit est quis cupidatat dolore.",
-      "image": "helloquence-5fNmWej4tAA-unsplash.jpg",
-      "imageAlt": "test",
-      "publishDate": "4/21/2020",
-      "subject": "This is the Test subject"
+      ],
+      "filename": "build-blog-using-quasar.md",
+      "folder": "posts/2020/04/08",
+      "headerImagePath": "posts/2020/04/08/books.jpg",
+      "filePath": "posts/2020/04/08/build-blog-using-quasar.md"
     },
     {
       "title": "Test Number 2",
       "description": "Minim amet et consectetur occaecat est nostrud exercitation occaecat consectetur amet ea incididunt.",
-      "image": "diego-ph-fIq0tET6llw-unsplash.jpg'",
-      "imageAlt": "testPhoto by Diego PH on Unsplash",
+      "headerImage": "diego-ph-fIq0tET6llw-unsplash.jpg",
+      "headerImageAlt": "testPhoto by Diego PH on Unsplash",
       "publishDate": "4/3/2020",
       "tags": [
         "development",
         "code"
-      ]
+      ],
+      "filename": "test2.md",
+      "folder": "posts/2020/04/15",
+      "headerImagePath": "posts/2020/04/15/diego-ph-fIq0tET6llw-unsplash.jpg",
+      "filePath": "posts/2020/04/15/test2.md"
+    },
+    {
+      "title": "This is a Test Title",
+      "description": "Do quis proident exercitation irure voluptate aliquip incididunt id laborum. Occaecat proident magna incididunt fugiat tempor labore velit consectetur culpa ullamco fugiat dolor. Tempor velit est quis cupidatat dolore.",
+      "headerImage": "helloquence-5fNmWej4tAA-unsplash.jpg",
+      "headerImageAlt": "test",
+      "publishDate": "4/21/2020",
+      "subject": "This is the Test subject",
+      "filename": "test.md",
+      "folder": "posts/2020/04/21",
+      "headerImagePath": "posts/2020/04/21/helloquence-5fNmWej4tAA-unsplash.jpg",
+      "filePath": "posts/2020/04/21/test.md"
     }
   ]
 }
