@@ -1,38 +1,39 @@
-const fs = require('fs')
+const fs = require('fs').promises
 const path = require('path')
-const fsPromises = require('fs').promises
 const yamlFront = require('yaml-front-matter')
 
 // Params
 const blogDir = 'src/posts'
 const manifest = 'src/posts/posts.json'
 
-// Returns all files that have a .md extension
-const getAllMarkdownFiles = async (dirPath, arrayOfFiles) => {
-  // Get all files in the current directory
-  const files = await fsPromises.readdir(dirPath)
-  return new Promise((resolve, reject) => {
-    arrayOfFiles = arrayOfFiles || []
-    files.forEach(function (file) {
-      // If the file is a directory then run the function again on this directory
-      if (fs.statSync(dirPath + '/' + file).isDirectory()) {
-        resolve(getAllMarkdownFiles(dirPath + '/' + file, arrayOfFiles))
-      } else {
-        // If the file is a markdown file then add it to the array of files
-        if (path.extname(file).toLowerCase() === '.md') {
-          arrayOfFiles.push(path.join(dirPath, '/', file))
-        }
+const getMarkdownFiles = async (dir, fileList = []) => {
+  const files = await fs.readdir(dir)
+
+  for (const file of files) {
+    const filePath = path.join(dir, file)
+    const stat = await fs.stat(filePath)
+
+    if (stat.isDirectory()) {
+      fileList = await getMarkdownFiles(filePath, fileList)
+    } else {
+      // If the file is a markdown file then add it to the array of files
+      if (path.extname(file).toLowerCase() === '.md') {
+        fileList.push(path.join(filePath))
       }
-    })
-    resolve(arrayOfFiles)
-  })
+    }
+  }
+
+  return fileList
 }
 
 (async () => {
-  const files = await getAllMarkdownFiles(blogDir)
+  console.log('==== Building blog manifest =====')
+  const files = await getMarkdownFiles(blogDir)
   const manifestList = { posts: [] }
+  console.log(`There are ${files.length} blog posts`)
   for (const file of files) {
-    const data = await fsPromises.readFile(file, 'utf8')
+    process.stdout.write('.')
+    const data = await fs.readFile(file, 'utf8')
     // Pull out all the front matter
     const fm = await yamlFront.loadFront(data)
     // Turn the file path into an array
@@ -50,5 +51,7 @@ const getAllMarkdownFiles = async (dirPath, arrayOfFiles) => {
     manifestList.posts.push(fm)
   }
   // Write the manifest to the file system
-  fs.writeFileSync(manifest, JSON.stringify(manifestList, null, 2))
+  fs.writeFile(manifest, JSON.stringify(manifestList, null, 2))
+  console.log('')
+  console.log('==== Complete =====')
 })()
