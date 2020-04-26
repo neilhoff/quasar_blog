@@ -35,6 +35,19 @@ const getAllMarkdownFiles = async (dirPath, arrayOfFiles) => {
     const data = await fsPromises.readFile(file, 'utf8')
     // Pull out all the front matter
     const fm = await yamlFront.loadFront(data)
+    // Turn the file path into an array
+    const fileArray = file.split('\\')
+    // Remove the last item in the array
+    fm.filename = fileArray.pop()
+    // require doesn't work when you have 'src' the alias in the variable
+    // you need to require the image like this: require(`src/${headerImagePath}`)
+    fileArray.splice(0, 1)
+    fm.folder = fileArray.join('/')
+    fm.headerImagePath = fm.folder + '/' + fm.headerImage
+    fm.filePath = fm.folder + '/' + fm.filename
+    console.log(fm.filePath)
+    console.log(fm.folder)
+    // fm.file
     // remove the content because this will be loaded in the front-end
     delete fm.__content
     manifestList.posts.push(fm)
