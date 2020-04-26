@@ -19,18 +19,9 @@ export default {
     }
   },
   methods: {
-    getPost (slug) {
-      this.postVisable = true
-      this.postListVisable = false
-      this.post = require(`src/posts/${this.slugToFileName(slug)}`)
-    },
-    slugToFileName (slug) {
-      return `${slug.replace(/-/g, '/')}.md`
-    }
   },
-  mounted () {
-    console.log(this.$route.params)
-    this.getPost(this.$route.params.slug)
+  created () {
+    this.post = require(`src/${this.$route.fullPath.substring(1)}.md`)
   }
 }
 </script>

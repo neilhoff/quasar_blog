@@ -6,47 +6,22 @@
         src="statics/blog.png"
         alt="Blog"
       >
-      <div class="">
+      <div>
         <div class="post-list-items q-mx-sm">
           <q-card
             class="q-ma-md"
             v-for="post in posts"
-            :key="post.fileName"
+            :key="post.filePath"
           >
             <q-card-section horizontal>
-
               <q-img
-                :src="require(`src/posts/${post.image}`)"
-                :alt="post.imageAlt"
+                :src="require(`src/` + post.headerImagePath)"
+                :alt="post.headerImageAlt"
               />
-
-              <!-- <q-card-actions
-                vertical
-                class="justify-around q-px-md"
-              >
-                <q-btn
-                  flat
-                  round
-                  color="red"
-                  icon="favorite"
-                />
-                <q-btn
-                  flat
-                  round
-                  color="accent"
-                  icon="bookmark"
-                />
-                <q-btn
-                  flat
-                  round
-                  color="primary"
-                  icon="share"
-                />
-              </q-card-actions> -->
             </q-card-section>
 
             <q-card-section>
-              <router-link :to="`/posts/${slug(post.fileName)}`">
+              <router-link :to="post.filePath.slice(0,-3)">
                 <div class="text-h6">{{post.title}}</div>
               </router-link>
               <div class="text-subtitle">Published: {{post.publishDate}}</div>
@@ -62,32 +37,18 @@
 </template>
 
 <script>
-import { postList } from 'src/posts/postList'
+import postList from 'src/posts/posts.json'
 
 export default {
   name: 'PostIndex',
   data () {
     return {
-      posts: postList.posts,
-      postListVisable: true,
-      post: {}
+      posts: postList.posts
     }
   },
   methods: {
-    getPost (fileName) {
-      this.post = require(`src/posts/${fileName}`)
-    },
-    slug (fileName) {
-      console.log('blah')
-      console.log(fileName.slice(0, -3).replace(/\//g, '-'))
-      return fileName.slice(0, -3).replace(/\//g, '-')
-    }
   },
   computed: {
-
-  },
-  mounted () {
-
   }
 }
 </script>
