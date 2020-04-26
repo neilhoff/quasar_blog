@@ -24,7 +24,7 @@
               <router-link :to="post.filePath.slice(0,-3)">
                 <div class="text-h6">{{post.title}}</div>
               </router-link>
-              <div class="text-subtitle">Published: {{post.publishDate}}</div>
+              <div class="text-subtitle">Published: {{publishedDate(post.publishDate)}}</div>
             </q-card-section>
             <q-card-section>
               {{post.description}}
@@ -38,6 +38,7 @@
 
 <script>
 import postList from 'src/posts/posts.json'
+import { date } from 'quasar'
 
 export default {
   name: 'PostIndex',
@@ -47,8 +48,14 @@ export default {
     }
   },
   methods: {
+    publishedDate (dateString) {
+      return date.formatDate(new Date(dateString), 'MMMM Do, YYYY')
+    }
   },
   computed: {
+
+  },
+  created () {
   }
 }
 </script>

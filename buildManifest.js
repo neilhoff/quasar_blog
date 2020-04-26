@@ -38,7 +38,7 @@ const getMarkdownFiles = async (dir, fileList = []) => {
     const fm = await yamlFront.loadFront(data)
     // Turn the file path into an array
     const fileArray = file.split('\\')
-    // Remove the last item in the array
+    // Remove the last item in the array to get the filename
     fm.filename = fileArray.pop()
     // require doesn't work when you have 'src/' (the alias) in the variable
     // you need to require the image like this: require(`src/${headerImagePath}`)
@@ -46,6 +46,11 @@ const getMarkdownFiles = async (dir, fileList = []) => {
     fm.folder = fileArray.join('/')
     fm.headerImagePath = fm.folder + '/' + fm.headerImage
     fm.filePath = fm.folder + '/' + fm.filename
+
+    // Get the publish date based on the folders
+    fileArray.splice(0, 1)
+    fm.publishDate = fileArray.join('-')
+
     // remove the content because this will be loaded in the front-end
     delete fm.__content
     manifestList.posts.push(fm)
