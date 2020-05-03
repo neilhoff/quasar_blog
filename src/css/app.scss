@@ -2,22 +2,50 @@
 
 body {
   font-size: 1rem; // This allows us to increase and decrease text within the left menu
-  color: #333333;
+  color: $standard-font-color;
+  h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+  }
   h1 {
     font-size: 4.5rem;
-
-    
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 2.8rem;
+    font-weight: 300;
   }
 }
 
 .body--light {
-  background-color: #ECECFA;
+  background-color: $body-bg-color;
 }
 
 .body--dark {
-  /* ... */
+  a {
+    color: $lighter-font-color;
+  }
 }
 
 .page-with-transparent-header {
   margin-top: -92px;
+}
+
+.header-image-content {
+    background-color: rgba(0, 0, 0, 0.47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    
+  }
+
+@font-face {
+  font-family:"Bauhaus_93";
+  src:url("fonts/Bauhaus_93/5683385/86d777be-ba3c-4a21-a94a-41b4f8ddd94b.woff2") format("woff2"),
+   url("fonts/Bauhaus_93/5683385/9c942d13-7269-478c-b12e-61ac23fc3e16.woff") format("woff");
 }

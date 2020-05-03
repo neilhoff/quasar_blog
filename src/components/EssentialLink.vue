@@ -28,7 +28,6 @@ export default {
       type: String,
       default: '#'
     },
-
     icon: {
       type: String,
       default: ''

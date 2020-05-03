@@ -12,6 +12,15 @@ git clone ....
 ```bash
 npm install
 ```
+### Create an AWS S3 Static Website
+
+- Go to the [AWS S3 Console](https://console.aws.amazon.com/s3/)
+- Create a new bucket
+  - Un-check "Block all public access"
+  - Create the bucket
+- From you newly created bucket click on the "Properties" tab
+- Setup "Static website hosting"
+  - "Index document" should be set to `index.html`
 
 ## Create a new post
 

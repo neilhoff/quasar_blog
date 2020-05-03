@@ -21,7 +21,7 @@ export default {
   methods: {
   },
   created () {
-    this.post = require(`src/${this.$route.fullPath.substring(1)}.md`)
+    this.post = require(`src/statics/${this.$route.fullPath.substring(1)}.md`)
   }
 }
 </script>

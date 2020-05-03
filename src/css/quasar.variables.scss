@@ -22,3 +22,9 @@ $positive  : #21BA45;
 $negative  : #C10015;
 $info      : #31CCEC;
 $warning   : #F2C037;
+
+$standard-font-color: #333333;
+$lighter-font-color: lighten($standard-font-color, 40%);
+$body-bg-color: #ECECFA;
+
+$nav-bar-height: 92px;

@@ -3,8 +3,8 @@ const path = require('path')
 const yamlFront = require('yaml-front-matter')
 
 // Params
-const blogDir = 'src/posts'
-const manifest = 'src/posts/posts.json'
+const blogDir = 'src/statics/posts'
+const manifest = 'src/config/posts.json'
 
 const getMarkdownFiles = async (dir, fileList = []) => {
   const files = await fs.readdir(dir)
@@ -46,9 +46,12 @@ const getMarkdownFiles = async (dir, fileList = []) => {
     fm.folder = fileArray.join('/')
     fm.headerImagePath = fm.folder + '/' + fm.headerImage
     fm.filePath = fm.folder + '/' + fm.filename
+    // Setup the router-link
+    fileArray.splice(0, 1) // Remove "statics" from the file array
+    fm.routerLink = fileArray.join('/') + '/' + fm.filename.slice(0, -3)
 
     // Get the publish date based on the folders
-    fileArray.splice(0, 1)
+    fileArray.splice(0, 1) // Remove "posts" from the file array
     fm.publishDate = fileArray.join('-')
 
     // remove the content because this will be loaded in the front-end

@@ -1,6 +1,9 @@
 <template>
   <q-page class="page-with-transparent-header">
     <q-parallax src="statics/tree-bg.jpg">
+      <div class="header-image-content">
+        <h1 class="text-white text-bold q-pa-md">Welcome to Hoff Design</h1>
+      </div>
 
     </q-parallax>
 
@@ -8,8 +11,6 @@
 </template>
 
 <script>
-import { postList } from 'src/posts/postList'
-// import ProfileCard from 'components/ProfileCard'
 import { authorConfig } from 'src/config/authorConfig'
 
 export default {
@@ -19,32 +20,15 @@ export default {
   },
   data () {
     return {
-      title: null,
-      markdown: null,
-      posts: postList.posts,
-      postVisable: false,
-      postListVisable: true,
-      post: {},
       author: authorConfig.author,
       social: authorConfig.socialProfiles
     }
   },
   methods: {
-    getPost (fileName) {
-      this.postVisable = true
-      this.postListVisable = false
-      this.post = require(`src/posts/${fileName}`)
-    },
-    backToPosts () {
-      this.postVisable = false
-      this.postListVisable = true
-    }
+
   },
   computed: {
-    postImage (image) {
-      console.log(image)
-      return require(`src/posts/${image}`)
-    }
+
   },
   mounted () {
     this.$store.commit('layout/updateHeaderTransparency', true)

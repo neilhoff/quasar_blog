@@ -1,30 +1,76 @@
 <template>
-  <q-page padding>
-    <div class="column items-center">
-      <!-- <h1 class="post-list-title">Blog</h1> -->
-      <img
+  <q-page class="page-with-transparent-header">
+
+    <!-- <img
         src="statics/blog.png"
         alt="Blog"
+      > -->
+    <div class="row posts">
+      <div
+        v-for="(post, index) in posts"
+        :key="index"
+        :class="isFeaturedPost(index)"
       >
-      <div>
-        <div class="post-list-items q-mx-sm">
-          <q-card
-            class="q-ma-md"
-            v-for="post in posts"
-            :key="post.filePath"
+
+        <div v-if="index===0">
+          <q-img
+            class="featured-image"
+            :src="require(`src/` + post.headerImagePath)"
           >
+            <div class="featured-image-content column items-center q-pa-md">
+
+              <div class="text-caption">Latest Post</div>
+              <h1 class="q-my-sm">
+                <router-link
+                  :to="post.routerLink"
+                  class="post-link"
+                >{{post.title}}</router-link>
+              </h1>
+              <div class="text-subtitle q-mb-sm">{{publishedDate(post.publishDate)}}</div>
+              <div class="q-mb-md post-desc">
+                {{post.description}}
+              </div>
+              <q-btn
+                color="primary"
+                label="Read More"
+                :to="post.routerLink"
+                class="q-mb-xl"
+              />
+            </div>
+
+          </q-img>
+          <div class="text-h5 q-mt-sm q-ml-sm">Earlier Posts</div>
+        </div>
+
+        <div
+          v-else
+          class="q-mx-sm"
+        >
+
+          <q-card class="q-ma-md post">
             <q-card-section horizontal>
               <q-img
                 :src="require(`src/` + post.headerImagePath)"
                 :alt="post.headerImageAlt"
+                class="post-image"
               />
             </q-card-section>
 
             <q-card-section>
-              <router-link :to="post.filePath.slice(0,-3)">
-                <div class="text-h6">{{post.title}}</div>
-              </router-link>
-              <div class="text-subtitle">Published: {{publishedDate(post.publishDate)}}</div>
+              <div class="row">
+                <router-link
+                  :to="post.routerLink"
+                  class="post-link col"
+                >
+                  <div class="text-h6">{{post.title}}</div>
+                </router-link>
+
+                <q-icon
+                  name="fas fa-check"
+                  class="col-1"
+                />
+              </div>
+              <div class="text-subtitle">{{publishedDate(post.publishDate)}}</div>
             </q-card-section>
             <q-card-section>
               {{post.description}}
@@ -37,43 +83,100 @@
 </template>
 
 <script>
-import postList from 'src/posts/posts.json'
+import postList from 'src/config/posts.json'
 import { date } from 'quasar'
 
 export default {
   name: 'PostIndex',
   data () {
     return {
-      posts: postList.posts
+      posts: []
     }
   },
   methods: {
     publishedDate (dateString) {
-      return date.formatDate(new Date(dateString), 'MMMM Do, YYYY')
+      // Add a timezone of 00:00:00 to make sure the date is calculated correctly
+      // https://stackoverflow.com/a/51062145/756623
+      return date.formatDate(new Date(dateString + 'T00:00:00'), 'MMMM Do, YYYY')
+    },
+    sortByDate (posts) {
+      return posts.sort((a, b) => a.publishDate - b.publishDate)
+    },
+    postVisited (post) {
+      return true
+    },
+    isFeaturedPost (index) {
+      return index === 0 ? 'featured-post' : 'post-container'
     }
   },
   computed: {
 
   },
   created () {
+    this.posts = this.sortByDate(postList.posts)
+  },
+  mounted () {
+    this.$store.commit('layout/updateHeaderTransparency', true)
+  },
+  beforeRouteLeave (to, from, next) {
+    this.$store.commit('layout/updateHeaderTransparency', false)
+    next()
   }
 }
 </script>
 <style lang="scss">
-.post-list-items,
-.show-post {
-  flex-grow: 1;
+.featured-post {
+  width: 100%;
+  .featured-image {
+    height: 450px;
+    width: 100%;
+    .featured-image-content {
+      padding-top: $nav-bar-height;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      h1 {
+        font-size: 3.8rem;
+        line-height: 4rem;
+        font-weight: bold;
+        max-width: 800px;
+        @media (max-width: $breakpoint-xs-max) {
+          font-size: 2.5rem;
+          line-height: 2.6rem;
+        }
+        .post-link {
+          color: white;
+          text-decoration: none;
+        }
+      }
+      .post-desc {
+        color: lighten($standard-font-color, 70%);
+      }
+    }
+  }
 }
-.post-list-title {
-  text-align: center;
+.posts {
+  @media (max-width: $breakpoint-sm-max) {
+    justify-content: center;
+  }
 }
-.post-list-items {
-  max-width: 600px;
-}
-.show-post {
-  max-width: 1200px;
-  h1 {
-    margin-top: 0;
+.post {
+  min-width: 300px;
+  max-width: 400px;
+  .post-image {
+    height: 200px;
+  }
+  .post-list-title {
+    // background-color: $secondary;
+    // color: $body-bg-color;
+    // font-family: Bauhaus_93;
+    line-height: 80px;
+    margin: 0;
+    text-align: center;
+  }
+  .post-link {
+    text-decoration: none;
+    color: #333333;
   }
 }
 </style>

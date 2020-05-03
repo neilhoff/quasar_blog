@@ -29,20 +29,21 @@
             label="Blog"
             to="/posts"
             rounded
-            class="q-mr-md"
+            class="q-mr-md header-link"
           />
           <q-btn
             color="accent"
             label="Resources"
             to="/resources"
             rounded
-            class="q-mr-md"
+            class="q-mr-md header-link"
           />
           <q-btn
             color="accent"
             label="About"
             to="/about"
             rounded
+            class="header-link"
           />
         </div>
       </q-toolbar>
@@ -116,5 +117,8 @@ export default {
 <style lang="scss">
 .header {
   transition: background-color 1000ms linear;
+}
+.header-link {
+  font-family: Bauhaus_93;
 }
 </style>
