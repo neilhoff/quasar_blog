@@ -121,13 +121,6 @@ export default {
         height: 450
       }
     }
-  },
-  mounted () {
-    this.$store.commit('layout/updateHeaderTransparency', true)
-  },
-  beforeRouteLeave (to, from, next) {
-    this.$store.commit('layout/updateHeaderTransparency', false)
-    next()
   }
 }
 </script>

@@ -114,13 +114,6 @@ export default {
   },
   created () {
     this.posts = this.sortByDate(postList.posts)
-  },
-  mounted () {
-    this.$store.commit('layout/updateHeaderTransparency', true)
-  },
-  beforeRouteLeave (to, from, next) {
-    this.$store.commit('layout/updateHeaderTransparency', false)
-    next()
   }
 }
 </script>

@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import layout from './layout'
-
 Vue.use(Vuex)
 
 /*
@@ -17,7 +15,7 @@ Vue.use(Vuex)
 export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
     modules: {
-      layout
+
     },
 
     // enable strict mode (adds overhead!)
@@ -26,10 +24,10 @@ export default function (/* { ssrContext } */) {
   })
 
   if (process.env.DEV && module.hot) {
-    module.hot.accept(['./layout'], () => {
-      const newLayout = require('./layout').default
-      Store.hotUpdate({ modules: { layout: newLayout } })
-    })
+    // module.hot.accept(['./layout'], () => {
+    //   const newLayout = require('./layout').default
+    //   Store.hotUpdate({ modules: { layout: newLayout } })
+    // })
   }
 
   return Store

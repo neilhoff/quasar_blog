@@ -58,13 +58,6 @@ export default {
     routerTo (link) {
       this.$router.push(link)
     }
-  },
-  mounted () {
-    this.$store.commit('layout/updateHeaderTransparency', true)
-  },
-  beforeRouteLeave (to, from, next) {
-    this.$store.commit('layout/updateHeaderTransparency', false)
-    next()
   }
 }
 </script>

@@ -3,7 +3,10 @@
     @scroll="updateHeaderColor"
     view="lHh Lpr lFf"
   >
-    <q-header :class="transparency">
+    <q-header
+      :class="transparency"
+      class="header"
+    >
       <q-toolbar>
         <q-btn
           flat
@@ -77,20 +80,17 @@ export default {
     return {
       leftDrawerOpen: false,
       author: authorConfig.author,
-      headerTransparencyPage: false
+      transparentHeader: true
     }
   },
   methods: {
     updateHeaderColor (details) {
       // Only run if the page has set the header transparency
-      if (this.$store.state.layout.headerTransparency || this.headerTransparencyPage) {
-        if (details.position <= 200 && !this.$store.state.layout.headerTransparency) {
-          this.$store.commit('layout/updateHeaderTransparency', true)
-        } else if (details.position > 200 && this.$store.state.layout.headerTransparency) {
-          // Needed so that the root "if" statment will keep running
-          this.headerTransparencyPage = true
-          this.$store.commit('layout/updateHeaderTransparency', false)
-        }
+
+      if (details.position <= 200) {
+        this.transparentHeader = true
+      } else if (details.position > 200) {
+        this.transparentHeader = false
       }
     }
   },
@@ -99,17 +99,11 @@ export default {
       return this.$q.dark.mode ? '' : 'bg-grey-1'
     },
     transparency () {
-      if (this.$store.state.layout.headerTransparency) {
-        console.log('transparent header')
-        return 'transparent header'
-      }
-      if (this.$store.state.layout.headerTransparency || this.headerTransparencyPage) {
-        console.log('header')
-        return 'header'
+      if (this.transparentHeader) {
+        return 'transparent'
       } else {
         return ''
       }
-      // return this.$store.state.layout.headerTransparency ? 'transparent' : ''
     }
   }
 }

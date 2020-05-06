@@ -29,16 +29,6 @@ export default {
   },
   computed: {
 
-  },
-  mounted () {
-    this.$store.commit('layout/updateHeaderTransparency', true)
-  },
-  beforeRouteLeave (to, from, next) {
-    this.$store.commit('layout/updateHeaderTransparency', false)
-    next()
-    // called when the route that renders this component is about to
-    // be navigated away from.
-    // has access to `this` component instance.
   }
 }
 </script>
