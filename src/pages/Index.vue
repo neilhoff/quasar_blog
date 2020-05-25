@@ -6,12 +6,41 @@
       </div>
 
     </q-parallax>
+    <div>
+      <h2 class="text-center">Latest Posts</h2>
+      <div class="latest-posts">
+        <q-card
+          class="latest-posts-card"
+          v-for="post in latestPosts"
+          :key="post.title"
+        >
+          <q-img
+            :src="require(`src/` + post.headerImagePath)"
+            :ratio="16/9"
+          >
+
+            <div class="absolute-bottom text-subtitle2 text-center">
+              <router-link
+                :to="post.routerLink"
+                class="post-link"
+              >
+                {{post.title}}
+              </router-link>
+            </div>
+
+          </q-img>
+        </q-card>
+
+      </div>
+    </div>
 
   </q-page>
 </template>
 
 <script>
 import { authorConfig } from 'src/config/authorConfig'
+import postList from 'src/config/posts.json'
+import { date } from 'quasar'
 
 export default {
   name: 'PageIndex',
@@ -21,32 +50,40 @@ export default {
   data () {
     return {
       author: authorConfig.author,
-      social: authorConfig.socialProfiles
+      social: authorConfig.socialProfiles,
+      latestPosts: []
     }
   },
   methods: {
-
+    publishedDate (dateString) {
+      // Add a timezone of 00:00:00 to make sure the date is calculated correctly
+      // https://stackoverflow.com/a/51062145/756623
+      return date.formatDate(new Date(dateString + 'T00:00:00'), 'MMMM Do, YYYY')
+    },
+    sortByDate (posts) {
+      return posts.sort((a, b) => a.publishDate - b.publishDate).reverse()
+    }
   },
-  computed: {
-
+  created () {
+    this.latestPosts = this.sortByDate(postList.posts).slice(0, 3)
+    console.log(this.latestPosts)
   }
 }
 </script>
 <style lang="scss">
-.post-list-items,
-.show-post {
-  flex-grow: 1;
-}
-.post-list-title {
-  text-align: center;
-}
-.post-list-items {
-  max-width: 600px;
-}
-.show-post {
-  max-width: 1200px;
-  h1 {
-    margin-top: 0;
+.latest-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 20px 0 20px;
+  .latest-posts-card {
+    width: 100%;
+    margin: 10px;
+    max-width: 300px;
+    .post-link {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
 </style>
