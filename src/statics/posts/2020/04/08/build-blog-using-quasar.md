@@ -8,7 +8,5 @@ tags:
   - code
 ---
 
-# Build a blog using Quasar and markdown
-
 this is a test
 

@@ -1,27 +1,57 @@
 <template>
-  <q-page class="row justify-center ">
+  <q-page class="page-with-transparent-header">
+    <q-parallax :src="headerImage">
+      <div class="header-image-content post-header-image-content row">
+        <div class="q-px-md text-white">
+          <h1 class=" text-bold q-pa-md">{{post.attributes.title}}</h1>
+          <div class="text-h3"> {{post.attributes.description}}</div>
+          <div class="text-subtitle">{{publishedDate(post.attributes.publishDate)}}</div>
+        </div>
 
-    <div
-      v-html="post.html"
-      class="post-container q-px-md col-md-8 col-sm-10 col-xs-12 bg-white"
-    ></div>
+      </div>
+
+    </q-parallax>
+    <div class="row justify-center">
+      <div
+        v-html="post.html"
+        class="post-container q-pa-lg bg-white"
+      >
+      </div>
+    </div>
 
   </q-page>
 </template>
 
 <script>
+import { date } from 'quasar'
 
 export default {
   name: 'PostShow',
   data () {
     return {
-      post: {}
+      post: {},
+      headerImage: ''
     }
   },
   methods: {
+    getPost () {
+      const fullPathArray = this.$route.fullPath.split('/')
+      // Remove the first "/" because webpack doesn't like it
+      fullPathArray.shift()
+      // Get the filename by removing the last item in the array
+      const filename = fullPathArray.pop() + '.md'
+      const folderPath = fullPathArray.join('/')
+      this.post = require(`src/statics/${folderPath}/${filename}`)
+      this.headerImage = require(`src/statics/${folderPath}/${this.post.attributes.headerImage}`)
+    },
+    publishedDate (dateString) {
+      // Add a timezone of 00:00:00 to make sure the date is calculated correctly
+      // https://stackoverflow.com/a/51062145/756623
+      return date.formatDate(new Date(dateString + 'T00:00:00'), 'MMMM Do, YYYY')
+    }
   },
   created () {
-    this.post = require(`src/statics/${this.$route.fullPath.substring(1)}.md`)
+    this.getPost()
   }
 }
 </script>
@@ -32,6 +62,10 @@ export default {
   }
 }
 .post-container {
+  max-width: 960px;
+  h2 {
+    margin-top: 10px;
+  }
   @media (max-width: $breakpoint-xs-max) {
     h1 {
       margin-bottom: 20px;

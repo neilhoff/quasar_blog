@@ -1,12 +1,12 @@
 <template>
   <q-page class="row justify-center ">
 
-    <div class="resource-container  col-lg-8 col-md-10 col-sm-12 bg-white">
+    <div class="resource-container col-lg-8 col-md-10 col-sm-12 bg-white">
       <q-parallax
         :src="require(`src/statics/${resource.attributes.headerImage}`)"
         :height="200"
       >
-        <div class="header-image-content">
+        <div class="header-image-content center">
           <h1 class="text-white text-bold">{{resource.attributes.title}}</h1>
         </div>
 

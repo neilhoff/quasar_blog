@@ -1,20 +1,22 @@
 // app global css in SCSS form
+@import "prism";
 
 body {
   font-size: 1rem; // This allows us to increase and decrease text within the left menu
   color: $standard-font-color;
-  h1,h2,h3,h4,h5,h6 {
+  h1,h2,h3,h4,h5,h6,.text-h1,.text-h2,.text-h3,.text-h4,.text-h5,.text-h6 {
     margin-bottom: 1rem;
     margin-top: 1.5rem;
   }
-  h1 {
+  h1, .text-h1 {
     font-size: 4.5rem;
+    line-height: 4.6rem;
   }
-  h2 {
-    font-size: 3.5rem;
+  h2, .text-h2 {
+    font-size: 3rem;
   }
-  h3 {
-    font-size: 2.8rem;
+  h3, .text-h3 {
+    font-size: 2.5rem;
     font-weight: 300;
   }
 }
@@ -34,15 +36,31 @@ body {
 }
 
 .header-image-content {
-    background-color: rgba(0, 0, 0, 0.47);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    width: 100%;
-    
+  background-color: rgba(0, 0, 0, 0.47);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.post-header-image-content {
+  justify-content: center;
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
   }
+  .text-h3 {
+    margin-top: 0px;
+  }
+  .post-link {
+    color: white;
+    text-decoration: none;
+  }
+}
 
 @font-face {
   font-family:"Bauhaus_93";

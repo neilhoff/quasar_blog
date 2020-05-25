@@ -44,6 +44,22 @@
       "filePath": "statics/posts/2020/04/21/test.md",
       "routerLink": "posts/2020/04/21/test",
       "publishDate": "2020-04-21"
+    },
+    {
+      "title": "One Front-End to Rule Them All",
+      "description": "Quasar Framework",
+      "headerImage": "space.jpg",
+      "headerImageAlt": "Photo by Shot by Cerqueira on Unsplash",
+      "publishDate": "2020-05-10",
+      "tags": [
+        "technology",
+        "code"
+      ],
+      "filename": "web-mobile-desktop-one-code-base.md",
+      "folder": "statics/posts/2020/05/10",
+      "headerImagePath": "statics/posts/2020/05/10/space.jpg",
+      "filePath": "statics/posts/2020/05/10/web-mobile-desktop-one-code-base.md",
+      "routerLink": "posts/2020/05/10/web-mobile-desktop-one-code-base"
     }
   ]
 }
