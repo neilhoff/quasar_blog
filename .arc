@@ -5,10 +5,16 @@ design-c44
 
 @http
 get /posts
-get /post
+get /posts/:postId
+get /admin
+get /admin/posts
+post /admin/post
 
 @tables
 data
   scopeID *String
   dataID **String
   ttl TTL
+
+posts
+  postId *String

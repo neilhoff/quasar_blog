@@ -33,12 +33,25 @@
 
       </div>
     </div>
+    <div
+      v-for="post in postsTest"
+      :key="post.key"
+    >
+      <ul>
+        <li>
+          {{post.key}}
+        </li>
+        <li>{{post.body}}</li>
+      </ul>
+
+    </div>
 
   </q-page>
 </template>
 
 <script>
 import { authorConfig } from 'src/config/authorConfig'
+import axios from 'axios'
 import postList from 'src/config/posts.json'
 import { date } from 'quasar'
 
@@ -51,7 +64,8 @@ export default {
     return {
       author: authorConfig.author,
       social: authorConfig.socialProfiles,
-      latestPosts: []
+      latestPosts: [],
+      postsTest: []
     }
   },
   methods: {
@@ -62,11 +76,18 @@ export default {
     },
     sortByDate (posts) {
       return posts.sort((a, b) => a.publishDate - b.publishDate).reverse()
+    },
+    async getPostsTest () {
+      const response = await axios.get(`${process.env.API_URL}/admin/posts`)
+      this.postsTest = response.data.posts
+      console.log(this.postsTest)
     }
   },
-  created () {
+  async created () {
     this.latestPosts = this.sortByDate(postList.posts).slice(0, 3)
-    console.log(this.latestPosts)
+
+    await this.getPostsTest()
+    console.log(this.postsTest)
   }
 }
 </script>
