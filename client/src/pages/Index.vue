@@ -37,15 +37,27 @@
       v-for="post in postsTest"
       :key="post.key"
     >
-      <ul>
-        <li>
-          {{post.key}}
-        </li>
-        <li>{{post.body}}</li>
-      </ul>
+      <h2>{{post.key}}</h2>
+      <div v-html="mdIt(post.body)">
+
+      </div>
 
     </div>
+    <div class="row q-ma-lg">
+      <div class="col">
+        <q-input
+          v-model="testMarkdown"
+          filled
+          type="textarea"
+        />
+      </div>
+      <div
+        class="col bg-grey-1 q-ml-sm"
+        v-html="mdIt(testMarkdown)"
+      >
 
+      </div>
+    </div>
   </q-page>
 </template>
 
@@ -54,6 +66,18 @@ import { authorConfig } from 'src/config/authorConfig'
 import axios from 'axios'
 import postList from 'src/config/posts.json'
 import { date } from 'quasar'
+import MarkDownIt from 'markdown-it'
+const markdownItFontAwesome = require('markdown-it-fontawesome')
+const markdownItPrism = require('markdown-it-prism')
+require('prismjs/components/prism-javascript')
+require('prismjs/components/prism-bash')
+require('prismjs/plugins/command-line/prism-command-line')
+
+const md = new MarkDownIt().use(markdownItFontAwesome)
+  .use(markdownItPrism, {
+    plugins: ['command-line'],
+    defaultLanguage: 'javascript'
+  })
 
 export default {
   name: 'PageIndex',
@@ -65,7 +89,8 @@ export default {
       author: authorConfig.author,
       social: authorConfig.socialProfiles,
       latestPosts: [],
-      postsTest: []
+      postsTest: [],
+      testMarkdown: ''
     }
   },
   methods: {
@@ -81,6 +106,9 @@ export default {
       const response = await axios.get(`${process.env.API_URL}/admin/posts`)
       this.postsTest = response.data.posts
       console.log(this.postsTest)
+    },
+    mdIt (markdown) {
+      return md.render(markdown)
     }
   },
   async created () {

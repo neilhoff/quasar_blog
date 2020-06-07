@@ -2,5 +2,9 @@
   "@quasar/qenv": {
     "common_root_object": "none",
     "add_qenv_to_gitignore": false
+  },
+  "@quasar/qmarkdown": {
+    "import_md": false,
+    "import_vmd": false
   }
 }
