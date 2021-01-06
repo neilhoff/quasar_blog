@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.6.4",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "frontmatter-markdown-loader": "^3.4.0",
     "markdown-it": "^11.0.0",
     "markdown-it-fontawesome": "^0.3.0",
